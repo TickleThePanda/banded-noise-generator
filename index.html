@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module" src="main.js"></script>
+    
+    <style>
+      canvas {
+        display: block;
+      }
+
+      input {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="wave" width="1024" height="200"></canvas>
+    <div class="controls">
+      <div class="master">
+        <label for="volume">volume</label>
+        <input name="volume" type="range" min="0" max="1" step="0.01" value="1"></input>
+      </div>
+      <div class="bands"></div>
+    </div>
+  </body>
+</html>
